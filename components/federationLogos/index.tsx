@@ -6,9 +6,11 @@ import { FC } from "react";
 
 const FederationLogos: FC<{size: number}> = ({size}) => {
   return (
-    <div className="z-20 flex mt-5 self-center" style={{marginLeft: '-12vw'}}>
+    <div 
+      className="z-20 flex flex-row self-center w-full justify-center gap-x-5"
+    >
       <Image
-        className="rounded-md"
+        className="rounded-xl"
         src={CsffLogo}
         alt="csff"
         width={size}
