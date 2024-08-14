@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic';
 
-const MainPage = dynamic(() => import('../../components/main'), {
+const MainPage = dynamic(() => import('../components/main'), {
   ssr: false,
 });
 

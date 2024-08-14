@@ -4,11 +4,11 @@ import localFont from 'next/font/local'
 import Banner from '../../assets/banner.png'
 import BannerMobile from '../../assets/banner-mobile.png'
 import Logo from '../../assets/logo.png'
-import InstagramIcon from '../../components/Icon/InstagramIcon';
+import InstagramIcon from '../Icon/InstagramIcon';
 import { useMediaQuery } from 'react-device-sizes';
 
 const roFont = localFont({
-  src: '../../src/app/russo-one.ttf',
+  src: '../../fonts/russo-one.ttf',
   display: 'swap',
   style : "normal"
 })
