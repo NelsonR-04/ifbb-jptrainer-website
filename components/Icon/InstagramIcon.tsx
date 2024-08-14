@@ -19,4 +19,6 @@ const InstagramIcon: FC<IconProps> = memo(props => (
   </Icon>
 ));
 
+InstagramIcon.displayName = 'InstagramIcon'
+
 export default InstagramIcon;

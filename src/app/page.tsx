@@ -12,6 +12,7 @@ import { FC } from "react";
 import InstagramIcon from '../../components/Icon/InstagramIcon';
 import { useDeviceSize, useMediaQuery } from 'react-device-sizes';
 import Footer from '../../components/layout/footer';
+import { useNavigate } from 'react-router-dom';
 
 const FederationLogos: FC<{size: number, style: any}> = ({size, style}) => {
   return (
@@ -53,6 +54,7 @@ const roFont = localFont({
 export default function Home() {
   const {xsDown, onlyXs} = useDeviceSize()
   const isMobileDevice = useMediaQuery({ maxWidth: 480 })
+  useNavigate()
   return (
     <main className="flex xs:min-h-screen flex-col">
       <div className="flex">
