@@ -82,14 +82,16 @@ export default function MainPage() {
                   </span>
                   <div className='flex justify-center mt-3 gap-5'>
                     <button 
-                      className="flex justify-center items-center text-white font-bold py-2 px-4 rounded-full" 
+                      className="flex justify-center items-center text-white bg-gradient-to-r from-cyan  to-teal-dark hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2"
+                      // className="flex justify-center items-center text-white font-bold py-2 px-4 rounded-full" 
                       style={{color: 'white', backgroundColor: '#05889e', maxWidth: '150px', columnGap: '10px', fontSize: '1.2vw'}}
                     >
                       <span className='drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]' style={{fontSize: '2.8vw'}}>Instagram</span>
                       <InstagramIcon style={{height: '3vw', width: '3vw'}} color="white"/>
                     </button>
                     <button 
-                      className="flex justify-center items-center text-white font-bold py-2 px-4 rounded-full" 
+                      className="flex justify-center items-center text-white bg-gradient-to-r from-cyan  to-teal-dark hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2"
+                      // className="flex justify-center items-center text-white font-bold py-2 px-4 rounded-full" 
                       style={{color: 'white', backgroundColor: '#05889e', maxWidth: '150px', columnGap: '10px', fontSize: '1.2vw'}}
                     >
                       <span className='drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]' style={{fontSize: '2.8vw'}}>WhatsApp</span>
@@ -152,11 +154,11 @@ export default function MainPage() {
                     </button>
                     <button 
                       onClick={conClickWa}
-                      className="flex justify-center items-center text-white bg-gradient-to-r from-cyan  to-teal-dark hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2"
+                      className="flex border-solid border-black justify-center items-center text-white bg-gradient-to-r from-cyan  to-teal-dark hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2"
                       style={{maxWidth: '200px', columnGap: '10px', fontSize: '1.2vw'}}
                     >
                       <span className='drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]'>WhatsApp</span>
-                      <InstagramIcon style={{height: '1.5vw', width: '1.5vw'}} color="white"/>
+                      {/* <InstagramIcon style={{height: '1.5vw', width: '1.5vw'}} color="white"/> */}
                     </button> 
                   </div>
                 </div>

@@ -13,8 +13,9 @@ const config: Config = {
     extend: {
       colors: {
 				// Custom
-				cyan: '#23c8ff',
-        'teal-dark': '#046f81'
+				cyan: '#008bba',
+
+        'teal-dark': '#00424a'
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
