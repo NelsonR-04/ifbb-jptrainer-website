@@ -20,7 +20,7 @@ export default function RootLayout({
       <title>Juan Pablo Melo - Personal Trainer</title>
       <body className={inter.className}>
         {children}
-        <Footer/>
+        {/* <Footer/> */}
       </body>
     </html>
   );
