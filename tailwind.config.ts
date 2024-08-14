@@ -11,6 +11,11 @@ const config: Config = {
       'xs': '480px',
     },
     extend: {
+      colors: {
+				// Custom
+				cyan: '#23c8ff',
+        'teal-dark': '#046f81'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
