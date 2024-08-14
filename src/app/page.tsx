@@ -6,7 +6,7 @@ const MainPage = dynamic(() => import('../components/main'), {
 
 export default function Home() {
   return (
-    <main className="flex xs:min-h-screen flex-col">
+    <main className="flex min-h-screen flex-col">
       <MainPage/>
     </main>
   );
